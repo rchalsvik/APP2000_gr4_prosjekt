@@ -10,6 +10,8 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use Session;
 
+use Illuminate\Support\Facades\DB;
+
 class BrukerController extends Controller
 {
   public function index()
@@ -59,11 +61,12 @@ class BrukerController extends Controller
   public function dashboard()
   {
 
-    /*if(Auth::check()){
+    if(Auth::check()){
       return view('dashboard');
     }
-     return Redirect::to("login")->withSuccess('Opps! You do not have access');*/
-     return view('dashboard');
+     return Redirect::to("login")->withSuccess('Opps! You do not have access');
+     //$users = DB::table('bruker')->where('id', 2)->first();
+     //return view('dashboard', ['bruker' => $users]);
    }
 
 

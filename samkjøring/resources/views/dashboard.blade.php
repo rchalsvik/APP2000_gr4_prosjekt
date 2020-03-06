@@ -27,7 +27,7 @@
               <h3 class="login-heading mb-4">Welcome Dashboard!</h3>
               <div class="card">
                   <div class="card-body">
-                    Welcome {{ ucfirst(Auth()->bruker()->fornavn) }}
+                    $bruker[Fornavn]Welcome {{ ucfirst(Auth()->user()->fornavn) }}
                   </div>
                   <div class="card-body">
                     <a class="small" href="{{url('logout')}}">Logout</a>
