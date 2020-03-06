@@ -19,4 +19,11 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+  Route::get('/home', 'HomeController@index')->name('home');
+
+  Route::get('login', 'BrukerController@index');
+  Route::post('post-login', 'BrukerController@postLogin');
+  Route::get('registration', 'BrukerController@registration');
+  Route::post('post-registration', 'BrukerController@postRegistration');
+  Route::get('dashboard', 'BrukerController@dashboard');
+  Route::get('logout', 'BrukerController@logout');
