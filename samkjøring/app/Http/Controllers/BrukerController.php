@@ -34,6 +34,8 @@ class BrukerController extends Controller
           // Authentication passed...
           return redirect()->intended('dashboard');
       }
+
+          //dd($credentials);
       return Redirect::to("login")->withSuccess('Opps! You have entered invalid credentials');
   }
 
@@ -49,17 +51,21 @@ class BrukerController extends Controller
 
       $check = $this->create($data);
 
+
+      //dd($check);
       return Redirect::to("dashboard")->withSuccess('Great! You have Successfully loggedin');
   }
 
   public function dashboard()
   {
 
-    if(Auth::check()){
+    /*if(Auth::check()){
       return view('dashboard');
     }
-     return Redirect::to("login")->withSuccess('Opps! You do not have access');
-  }
+     return Redirect::to("login")->withSuccess('Opps! You do not have access');*/
+     return view('dashboard');
+   }
+
 
   public function create(array $data)
   {
