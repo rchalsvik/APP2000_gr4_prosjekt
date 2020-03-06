@@ -19,18 +19,18 @@ class LagBrukerTabell extends Migration
          $table->engine = 'InnoDB';
 
          $table->increments('id'); // Denne skal ha innebygd AutoInc.
-         $table->string('fornavn', 150);
-         $table->string('etternavn', 150);
-         $table->char('telefon', 8);
-         $table->string('epost', 100)->unique();
-         $table->string('passord', 100);
-         $table->string('adresse', 100);
-         $table->char('postnr', 4);
-         $table->date('fødselsdato');
-         $table->boolean('har_sertifikat');
-         $table->boolean('konto_aktiv');
-         $table->date('dato_aktivert');
-         $table->date('dato_deaktivert');
+         $table->string('fornavn', 150)->nullable($value = true);
+         $table->string('etternavn', 150)->nullable($value = true);
+         $table->char('telefon', 8)->nullable($value = true);
+         $table->string('epost', 100)->unique()->nullable($value = true);
+         $table->string('passord', 100)->nullable($value = true);
+         $table->string('adresse', 100)->nullable($value = true);
+         $table->char('postnr', 4)->nullable($value = true);
+         $table->date('fødselsdato')->nullable($value = true);
+         $table->boolean('har_sertifikat')->nullable($value = true);
+         $table->boolean('konto_aktiv')->nullable($value = true);
+         $table->date('dato_aktivert')->nullable($value = true);
+         $table->date('dato_deaktivert')->nullable($value = true);
 
          $table->rememberToken();
          $table->timestamps();

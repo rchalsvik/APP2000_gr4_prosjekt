@@ -18,8 +18,8 @@ class LagKommuneTabell extends Migration
          $table->collation = 'utf8_unicode_ci';
          $table->engine = 'InnoDB';
 
-         $table->char('postnr', 4);
-         $table->string('kommunenavn', 150);
+         $table->char('postnr', 4) ->nullable($value = true);
+         $table->string('kommunenavn', 150) ->nullable($value = true);
 
          $table->rememberToken();
          $table->timestamps();
