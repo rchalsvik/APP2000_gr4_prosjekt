@@ -4,7 +4,8 @@ namespace App\Http\Controllers;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Validator,Redirect,Response;
-Use App\User;
+//Use App\User;
+Use App\Bruker;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use Session;
@@ -40,7 +41,7 @@ class BrukerController extends Controller
   {
       request()->validate([
       'fornavn' => 'required',
-      'epost' => 'required|epost|unique:bruker',
+      'epost' => 'required|email|unique:bruker',
       'passord' => 'required|min:6',
       ]);
 
@@ -62,7 +63,7 @@ class BrukerController extends Controller
 
   public function create(array $data)
   {
-    return User::create([
+    return Bruker::create([
       'fornavn' => $data['fornavn'],
       'epost' => $data['epost'],
       'passord' => Hash::make($data['passord'])
