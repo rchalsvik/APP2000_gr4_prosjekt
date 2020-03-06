@@ -29,20 +29,20 @@
                  {{ csrf_field() }}
 
                 <div class="form-label-group">
-                  <input type="email" name="email" id="inputEmail" class="form-control" placeholder="Email address" >
-                  <label for="inputEmail">Email address</label>
+                  <input type="email" name="epost" id="inputEmail" class="form-control" placeholder="Epost addresse" >
+                  <label for="inputEmail">Epost adresse</label>
 
-                  @if ($errors->has('email'))
-                  <span class="error">{{ $errors->first('email') }}</span>
+                  @if ($errors->has('epost'))
+                  <span class="error">{{ $errors->first('epost') }}</span>
                   @endif
                 </div>
 
                 <div class="form-label-group">
-                  <input type="password" name="password" id="inputPassword" class="form-control" placeholder="Password">
-                  <label for="inputPassword">Password</label>
+                  <input type="password" name="passord" id="inputPassword" class="form-control" placeholder="Passord">
+                  <label for="inputPassword">Passord</label>
 
-                  @if ($errors->has('password'))
-                  <span class="error">{{ $errors->first('password') }}</span>
+                  @if ($errors->has('passord'))
+                  <span class="error">{{ $errors->first('passord') }}</span>
                   @endif
                 </div>
 

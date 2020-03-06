@@ -24,24 +24,24 @@ class BrukerController extends Controller
   public function postLogin(Request $request)
   {
       request()->validate([
-      'email' => 'required',
-      'password' => 'required',
+      'epost' => 'required',
+      'passord' => 'required',
       ]);
 
-      $credentials = $request->only('email', 'password');
+      $credentials = $request->only('epost', 'passord');
       if (Auth::attempt($credentials)) {
           // Authentication passed...
           return redirect()->intended('dashboard');
       }
-      return Redirect::to("login")->withSuccess('Oppes! You have entered invalid credentials');
+      return Redirect::to("login")->withSuccess('Opps! You have entered invalid credentials');
   }
 
   public function postRegistration(Request $request)
   {
       request()->validate([
-      'name' => 'required',
-      'email' => 'required|email|unique:users',
-      'password' => 'required|min:6',
+      'fornavn' => 'required',
+      'epost' => 'required|epost|unique:bruker',
+      'passord' => 'required|min:6',
       ]);
 
       $data = $request->all();
@@ -63,9 +63,9 @@ class BrukerController extends Controller
   public function create(array $data)
   {
     return User::create([
-      'name' => $data['name'],
-      'email' => $data['email'],
-      'password' => Hash::make($data['password'])
+      'fornavn' => $data['fornavn'],
+      'epost' => $data['epost'],
+      'passord' => Hash::make($data['passord'])
     ]);
   }
 
