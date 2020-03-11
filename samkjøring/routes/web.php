@@ -27,3 +27,6 @@ Auth::routes();
   Route::post('post-registration', 'BrukerController@postRegistration');
   Route::get('dashboard', 'BrukerController@dashboard');
   Route::get('logout', 'BrukerController@logout');
+  Route::get('/test', function () {
+    return view('index');
+  });
