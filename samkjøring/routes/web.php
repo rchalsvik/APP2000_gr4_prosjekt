@@ -30,3 +30,6 @@ Auth::routes();
   Route::get('/test', function () {
     return view('index');
   });
+  Route::get('/omoss', function () {
+    return view('omoss');
+  });
