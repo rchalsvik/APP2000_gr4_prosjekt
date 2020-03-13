@@ -53,8 +53,9 @@
 
     <!-- Jumbotron Header -->
     <header class="jumbotron my-4">
-      <h1 class="display-3">Velkommen!</h1>
-      <p class="lead">Kom deg fra A til B, billig, raskt og effektivt!</p>
+      <h1 class="display-3">Velkommen til Samkjøring AS!</h1>
+      <p class="lead"><h3>Finn på en enkel måte noen som skal samme vei som deg!</h3></p>
+      <p><h3> Kjør smart, kjør billig, kjør bærekraftig, velg samkjøring AS!</h3></p>
       <a href="/registration" class="btn btn-primary btn-lg">Registrer deg nå!</a>
     </header>
 
@@ -63,23 +64,25 @@
 
       <div class="col-lg-3 col-md-6 mb-4">
         <div class="card h-100">
-          <img class="card-img-top" src="http://placehold.it/500x325" alt="">
+          <img class="card-img-top" src="{{URL::to('/')}}/img/bølærdal.jpg" alt="">
           <div class="card-body">
             <h4 class="card-title">Rute: Bø-Lærdal </h4>
-            <p class="card-text"> 3 ledige plasser</p>
+            <p class="card-text"> 17.Mars 2019</p>
+            <p class="card-text"> 10:30-16:00</p>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-primary">Bli med Joakim til Lærdal!</a>
+            <a href="#" class="btn btn-primary">Meld på tur</a>
           </div>
         </div>
       </div>
 
       <div class="col-lg-3 col-md-6 mb-4">
         <div class="card h-100">
-          <img class="card-img-top" src="http://placehold.it/500x325" alt="">
+          <img class="card-img-top" src="{{URL::to('/')}}/img/Borgund.jpg" alt="">
           <div class="card-body">
-            <h4 class="card-title">Rute: Bø-Paris</h4>
-            <p class="card-text">2 ledige plasser</p>
+            <h4 class="card-title">Rute: Bø-Borgund</h4>
+            <p class="card-text">12.Desember-2019</p>
+            <p class="card-text">11:00-20-00</p>
           </div>
           <div class="card-footer">
             <a href="#" class="btn btn-primary">Opplev Frankrike med Joachim!</a>
@@ -89,7 +92,7 @@
 
       <div class="col-lg-3 col-md-6 mb-4">
         <div class="card h-100">
-          <img class="card-img-top" src="{{URL::to('/')}}/img/ambulanse.jpg" alt="">
+          <img class="card-img-top" src="{{URL::to('/')}}/img/.jpg" alt="">
           <div class="card-body">
             <h4 class="card-title">Rute: Bø-Kasakhstan</h4>
             <p class="card-text">4 ledige plasser + 1 sykeseng (kjører med en veteran-ambulanse)</p>
@@ -122,10 +125,11 @@
 
       <div class="col-lg-3 col-md-6 mb-4">
         <div class="card h-100">
-          <img class="card-img-top" src="http://placehold.it/500x325" alt="">
+          <img class="card-img-top" src="{{URL::to('/')}}/img/bøski.jpg" alt="">
           <div class="card-body">
-            <h4 class="card-title">Rute: Bø-Las Vegas </h4>
-            <p class="card-text"> 2 ledige plasser</p>
+            <h4 class="card-title">Rute: Bø-Ski </h4>
+            <p class="card-text"> 7.Mai-2019</p>
+            <p class="card-text"> 10:00-12:45</p>
           </div>
           <div class="card-footer">
             <a href="#" class="btn btn-primary">Bli med Ahadd i bryllup!</a>

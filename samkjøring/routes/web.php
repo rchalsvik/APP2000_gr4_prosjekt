@@ -33,3 +33,4 @@ Auth::routes();
   Route::get('/omoss', function () {
     return view('omoss');
   });
+  
