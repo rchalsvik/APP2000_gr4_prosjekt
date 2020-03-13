@@ -5,7 +5,14 @@
  */
 body {
   padding-top: 56px;
+}
 
+.navbar{
+  background-color: #ff4d4d;
+}
+
+{
+  background-color:
 }
 
   .jumbotron {
@@ -22,4 +29,8 @@ body {
 
 .card-footer{
   background-color: #ffcccc
+}
+
+.card-img-top{
+  height: 300px;
 }
