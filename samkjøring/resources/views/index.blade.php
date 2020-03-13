@@ -67,7 +67,7 @@
           <img class="card-img-top" src="{{URL::to('/')}}/img/bølærdal.jpg" alt="">
           <div class="card-body">
             <h4 class="card-title">Rute: Bø-Lærdal </h4>
-            <p class="card-text"> 17.Mars 2019</p>
+            <p class="card-text"> 17.Mars 2020</p>
             <p class="card-text"> 10:30-16:00</p>
           </div>
           <div class="card-footer">
@@ -81,7 +81,7 @@
           <img class="card-img-top" src="{{URL::to('/')}}/img/Borgund.jpg" alt="">
           <div class="card-body">
             <h4 class="card-title">Rute: Bø-Borgund</h4>
-            <p class="card-text">12.Desember-2019</p>
+            <p class="card-text">12.Desember-2020</p>
             <p class="card-text">11:00-20-00</p>
           </div>
           <div class="card-footer">
@@ -92,7 +92,7 @@
 
       <div class="col-lg-3 col-md-6 mb-4">
         <div class="card h-100">
-          <img class="card-img-top" src="{{URL::to('/')}}/img/.jpg" alt="">
+          <img class="card-img-top" src="{{URL::to('/')}}/img/ambulanse.jpg" alt="">
           <div class="card-body">
             <h4 class="card-title">Rute: Bø-Kasakhstan</h4>
             <p class="card-text">4 ledige plasser + 1 sykeseng (kjører med en veteran-ambulanse)</p>
@@ -108,7 +108,7 @@
           <img class="card-img-top" src="{{URL::to('/')}}/img/bøskien.jpg" alt="">
           <div class="card-body">
             <h4 class="card-title">Rute: Bø-Skien</h4>
-            <p class="card-text">4 ledige plasser</p>
+            <p class="card-text">20.Mars 2020</p>
           </div>
           <div class="card-footer">
             <a href="#" class="btn btn-primary">Bli med Sugal på skolen!</a>
@@ -141,8 +141,9 @@
         <div class="card h-100">
           <img class="card-img-top" src="http://placehold.it/500x325" alt="">
           <div class="card-body">
-            <h4 class="card-title">Rute: Gvarv-Milano</h4>
-            <p class="card-text">2 ledige plasser(skal forske på corona-viruset)</p>
+            <h4 class="card-title">Rute: Trondheim-Tromsø</h4>
+            <p class="card-text"> 10.Mai-2019</p>
+            <p class="card-text"> 10:00-12:45</p>
           </div>
           <div class="card-footer">
             <a href="#" class="btn btn-primary">Bli med Henrik å forsk!</a>
