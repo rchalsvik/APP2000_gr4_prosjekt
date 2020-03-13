@@ -23,25 +23,25 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Samkjøring AS</a>
+      <a class="navbar-brand" href="#">Start Bootstrap</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Hjem
-              <span class="sr-only">(current)</span>
-            </a>
+          <li class="nav-item">
+            <a class="nav-link" href="/test">Hjem</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Varslinger</a>
+            <span class="sr-only">(current)</span>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/login">Logg inn</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/omoss">Om oss</a>
+          <li class="nav-item active">
+            <a class="nav-link" href="#top">Om oss
+            </a>
           </li>
         </ul>
       </div>
@@ -53,53 +53,49 @@
 
     <!-- Jumbotron Header -->
     <header class="jumbotron my-4">
-      <h1 class="display-3">Velkommen til Samkjøring AS!</h1>
-      <p class="lead"><h3>Finn på en enkel måte noen som skal samme vei som deg!</h3></p>
-      <p><h3> Kjør smart, kjør billig, kjør bærekraftig, velg samkjøring AS!</h3></p>
-      <a href="/registration" class="btn btn-primary btn-lg">Registrer deg nå!</a>
+      <h1 class="display-3">Varslinger!</h1>
+      <p class="lead">Her vil det komme varslinger!</p>
+      <!-- <a href="/registration" class="btn btn-primary btn-lg">Registrer deg nå!</a> -->
     </header>
 
-    <!-- Page Features -->
+    <!-- Page Features
     <div class="row text-center">
 
       <div class="col-lg-3 col-md-6 mb-4">
         <div class="card h-100">
-          <img class="card-img-top" src="{{URL::to('/')}}/img/bølærdal.jpg" alt="">
+          <img class="card-img-top" src="http://placehold.it/500x325" alt="">
           <div class="card-body">
             <h4 class="card-title">Rute: Bø-Lærdal </h4>
-            <p class="card-text"> 17.Mars-2020</p>
-            <p class="card-text"> 10:30-16:00</p>
+            <p class="card-text"> 3 ledige plasser</p>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-primary">Meld på tur</a>
+            <a href="#" class="btn btn-primary">Bli med Joakim til Lærdal!</a>
           </div>
         </div>
       </div>
 
       <div class="col-lg-3 col-md-6 mb-4">
         <div class="card h-100">
-          <img class="card-img-top" src="{{URL::to('/')}}/img/Borgund.jpg" alt="">
+          <img class="card-img-top" src="http://placehold.it/500x325" alt="">
           <div class="card-body">
-            <h4 class="card-title">Rute: Bø-Borgund</h4>
-            <p class="card-text">12.Desember-2020</p>
-            <p class="card-text">11:00-20-00</p>
+            <h4 class="card-title">Rute: Bø-Paris</h4>
+            <p class="card-text">2 ledige plasser</p>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-primary">Meld på tur</a>
+            <a href="#" class="btn btn-primary">Opplev Frankrike med Joachim!</a>
           </div>
         </div>
       </div>
 
       <div class="col-lg-3 col-md-6 mb-4">
         <div class="card h-100">
-          <img class="card-img-top" src="{{URL::to('/')}}/img/askertønsberg.jpg" alt="">
+          <img class="card-img-top" src="{{URL::to('/')}}/img/ambulanse.jpg" alt="">
           <div class="card-body">
-            <h4 class="card-title">Rute: Asker-Tønsberg</h4>
-            <p class="card-text">3.April-2020</p>
-            <p class="card-text">12:00-13:10</p>
+            <h4 class="card-title">Rute: Bø-Kasakhstan</h4>
+            <p class="card-text">4 ledige plasser + 1 sykeseng (kjører med en veteran-ambulanse)</p>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-primary">Meld på tur</a>
+            <a href="#" class="btn btn-primary">Bli med Ross til Kasakhstan!</a>
           </div>
         </div>
       </div>
@@ -109,43 +105,40 @@
           <img class="card-img-top" src="{{URL::to('/')}}/img/bøskien.jpg" alt="">
           <div class="card-body">
             <h4 class="card-title">Rute: Bø-Skien</h4>
-            <p class="card-text">08:00-09:04</p>
-            <p class="card-text">20.Mars-2020</p>
+            <p class="card-text">4 ledige plasser</p>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-primary">Meld på tur</a>
+            <a href="#" class="btn btn-primary">Bli med Sugal på skolen!</a>
           </div>
         </div>
       </div>
 
-    </div>
+    </div> -->
     <!-- /.row -->
 
-    <!-- Page Features 2 -->
+    <!-- Page Features 2
 
     <div class="row text-center">
 
       <div class="col-lg-3 col-md-6 mb-4">
         <div class="card h-100">
-          <img class="card-img-top" src="{{URL::to('/')}}/img/bøski.jpg" alt="">
+          <img class="card-img-top" src="http://placehold.it/500x325" alt="">
           <div class="card-body">
-            <h4 class="card-title">Rute: Bø-Ski </h4>
-            <p class="card-text"> 7.Mai-2020</p>
-            <p class="card-text"> 10:00-12:45</p>
+            <h4 class="card-title">Rute: Bø-Las Vegas </h4>
+            <p class="card-text"> 2 ledige plasser</p>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-primary">Meld på tur</a>
+            <a href="#" class="btn btn-primary">Bli med Ahadd i bryllup!</a>
           </div>
         </div>
       </div>
 
       <div class="col-lg-3 col-md-6 mb-4">
         <div class="card h-100">
-          <img class="card-img-top" src="{{URL::to('/')}}/img/trondheimtromsø.jpg" alt="">
+          <img class="card-img-top" src="http://placehold.it/500x325" alt="">
           <div class="card-body">
-            <h4 class="card-title">Rute: Trondheim-Tromsø</h4>
-            <p class="card-text"> 6.Mai-2020</p>
-            <p class="card-text"> 09:00-19:00</p>
+            <h4 class="card-title">Rute: Gvarv-Milano</h4>
+            <p class="card-text">2 ledige plasser(skal forske på corona-viruset)</p>
           </div>
           <div class="card-footer">
             <a href="#" class="btn btn-primary">Bli med Henrik å forsk!</a>
@@ -155,33 +148,31 @@
 
       <div class="col-lg-3 col-md-6 mb-4">
         <div class="card h-100">
-          <img class="card-img-top" src="{{URL::to('/')}}/img/oslolillestrøm.jpg" alt="">
+          <img class="card-img-top" src="http://placehold.it/500x325" alt="">
           <div class="card-body">
-            <h4 class="card-title">Rute: Oslo-Lillestrøm</h4>
-            <p class="card-text"> 7.Juli-2020</p>
-            <p class="card-text"> 12:00-12:30</p>
+            <h4 class="card-title">Rute: Huset ditt-Ukjent</h4>
+            <p class="card-text">1 ledig plass</p>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-primary">Meld på tur</a>
+            <a href="#" class="btn btn-primary">Bli med Kjell Berit på din beste (siste?) tur!</a>
           </div>
         </div>
       </div>
 
       <div class="col-lg-3 col-md-6 mb-4">
         <div class="card h-100">
-          <img class="card-img-top" src="{{URL::to('/')}}/img/stavangerrjukan.jpg" alt="">
+          <img class="card-img-top" src="http://placehold.it/500x325" alt="">
           <div class="card-body">
             <h4 class="card-title">Rute: Stavanger - Rjukan </h4>
-            <p class="card-text">5.Mai-2020</p>
-            <p class="card-text">12:00-18:00</p>
+            <p class="card-text">4 ledige plasser</p>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-primary">Meld på tur</a>
+            <a href="#" class="btn btn-primary">Bli med på en spennende reise!</a>
           </div>
         </div>
       </div>
 
-    </div>
+    </div> -->
 
     <!-- /.row -->
 

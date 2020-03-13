@@ -33,4 +33,6 @@ Auth::routes();
   Route::get('/omoss', function () {
     return view('omoss');
   });
-  
+  Route::get('/varslinger', function () {
+    return view('varslinger');  
+  });
