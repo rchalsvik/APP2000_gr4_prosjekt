@@ -67,7 +67,7 @@
           <img class="card-img-top" src="{{URL::to('/')}}/img/bølærdal.jpg" alt="">
           <div class="card-body">
             <h4 class="card-title">Rute: Bø-Lærdal </h4>
-            <p class="card-text"> 17.Mars 2020</p>
+            <p class="card-text"> 17.Mars-2020</p>
             <p class="card-text"> 10:30-16:00</p>
           </div>
           <div class="card-footer">
@@ -85,20 +85,21 @@
             <p class="card-text">11:00-20-00</p>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-primary">Opplev Frankrike med Joachim!</a>
+            <a href="#" class="btn btn-primary">Meld på tur</a>
           </div>
         </div>
       </div>
 
       <div class="col-lg-3 col-md-6 mb-4">
         <div class="card h-100">
-          <img class="card-img-top" src="{{URL::to('/')}}/img/ambulanse.jpg" alt="">
+          <img class="card-img-top" src="{{URL::to('/')}}/img/askertønsberg.jpg" alt="">
           <div class="card-body">
-            <h4 class="card-title">Rute: Bø-Kasakhstan</h4>
-            <p class="card-text">4 ledige plasser + 1 sykeseng (kjører med en veteran-ambulanse)</p>
+            <h4 class="card-title">Rute: Asker-Tønsberg</h4>
+            <p class="card-text">3.April-2020</p>
+            <p class="card-text">12:00-13:10</p>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-primary">Bli med Ross til Kasakhstan!</a>
+            <a href="#" class="btn btn-primary">Meld på tur</a>
           </div>
         </div>
       </div>
@@ -108,10 +109,11 @@
           <img class="card-img-top" src="{{URL::to('/')}}/img/bøskien.jpg" alt="">
           <div class="card-body">
             <h4 class="card-title">Rute: Bø-Skien</h4>
-            <p class="card-text">20.Mars 2020</p>
+            <p class="card-text">08:00-09:04</p>
+            <p class="card-text">20.Mars-2020</p>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-primary">Bli med Sugal på skolen!</a>
+            <a href="#" class="btn btn-primary">Meld på tur</a>
           </div>
         </div>
       </div>
@@ -128,22 +130,22 @@
           <img class="card-img-top" src="{{URL::to('/')}}/img/bøski.jpg" alt="">
           <div class="card-body">
             <h4 class="card-title">Rute: Bø-Ski </h4>
-            <p class="card-text"> 7.Mai-2019</p>
+            <p class="card-text"> 7.Mai-2020</p>
             <p class="card-text"> 10:00-12:45</p>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-primary">Bli med Ahadd i bryllup!</a>
+            <a href="#" class="btn btn-primary">Meld på tur</a>
           </div>
         </div>
       </div>
 
       <div class="col-lg-3 col-md-6 mb-4">
         <div class="card h-100">
-          <img class="card-img-top" src="http://placehold.it/500x325" alt="">
+          <img class="card-img-top" src="{{URL::to('/')}}/img/trondheimtromsø.jpg" alt="">
           <div class="card-body">
             <h4 class="card-title">Rute: Trondheim-Tromsø</h4>
-            <p class="card-text"> 10.Mai-2019</p>
-            <p class="card-text"> 10:00-12:45</p>
+            <p class="card-text"> 6.Mai-2020</p>
+            <p class="card-text"> 09:00-19:00</p>
           </div>
           <div class="card-footer">
             <a href="#" class="btn btn-primary">Bli med Henrik å forsk!</a>
@@ -153,26 +155,28 @@
 
       <div class="col-lg-3 col-md-6 mb-4">
         <div class="card h-100">
-          <img class="card-img-top" src="http://placehold.it/500x325" alt="">
+          <img class="card-img-top" src="{{URL::to('/')}}/img/oslolillestrøm.jpg" alt="">
           <div class="card-body">
-            <h4 class="card-title">Rute: Rjukan Bedehus-Gaustatoppen</h4>
-            <p class="card-text">1 ledig plass</p>
+            <h4 class="card-title">Rute: Oslo-Lillestrøm</h4>
+            <p class="card-text"> 7.Juli-2020</p>
+            <p class="card-text"> 12:00-12:30</p>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-primary">Bli med Kjell Berit på din mest krevende tandemsykkeltur noensinne!</a>
+            <a href="#" class="btn btn-primary">Meld på tur</a>
           </div>
         </div>
       </div>
 
       <div class="col-lg-3 col-md-6 mb-4">
         <div class="card h-100">
-          <img class="card-img-top" src="http://placehold.it/500x325" alt="">
+          <img class="card-img-top" src="{{URL::to('/')}}/img/stavangerrjukan.jpg" alt="">
           <div class="card-body">
             <h4 class="card-title">Rute: Stavanger - Rjukan </h4>
-            <p class="card-text">4 ledige plasser</p>
+            <p class="card-text">5.Mai-2020</p>
+            <p class="card-text">12:00-18:00</p>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-primary">Bli med på en spennende reise!</a>
+            <a href="#" class="btn btn-primary">Meld på tur</a>
           </div>
         </div>
       </div>
