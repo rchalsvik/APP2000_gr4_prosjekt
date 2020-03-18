@@ -8,22 +8,23 @@ body {
   background-color: #D3D3D3;
 }
 
+/* turkis #98e6e6, gul #ffffcc blå/lilla #80aaff */
 
 
   .jumbotron {
-    background-color: #ffcccc;
+    background-color: #ffffcc ;
   }
 
   .btn-primary{
-    background-color: #ff4d4d;
+    background-color: #80aaff;
   }
 
 .card-body {
-  background-color: 	#888888;
+  background-color: 	  #ffff66;
 }
 
 .card-footer{
-  background-color: #ffcccc
+  background-color: #ffffcc;
 }
 
 .card-img-top{

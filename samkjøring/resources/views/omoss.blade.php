@@ -23,7 +23,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Start Bootstrap</a>
+      <a class="navbar-brand" href="#">Samkjøring AS</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -60,6 +60,16 @@
       "Gruppe4" satt på saken! </p>
       <!-- <a href="/registration" class="btn btn-primary btn-lg">Registrer deg nå!</a> -->
     </header>
+    <div id="omossbilder">
+  		<h1 id="vårebilder"></h1>
+  		<figure>
+  			<img id="tandem" src="img/tandem.jpg" alt="tandemsykkel">
+  			<figcaption><b id="tandem">Tandem-sykkel</b></figcaption>
+  		</figure>
+
+  	</div>
+
+
 
     <!-- Page Features
     <div class="row text-center">

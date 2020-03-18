@@ -109,8 +109,8 @@
           <img class="card-img-top" src="{{URL::to('/')}}/img/bøskien.jpg" alt="">
           <div class="card-body">
             <h4 class="card-title">Rute: Bø-Skien</h4>
-            <p class="card-text">08:00-09:04</p>
             <p class="card-text">20.Mars-2020</p>
+            <p class="card-text">08:00-09:04</p>
           </div>
           <div class="card-footer">
             <a href="#" class="btn btn-primary">Meld på tur</a>
@@ -148,7 +148,7 @@
             <p class="card-text"> 09:00-19:00</p>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-primary">Bli med Henrik å forsk!</a>
+            <a href="#" class="btn btn-primary">Meld på tur</a>
           </div>
         </div>
       </div>
