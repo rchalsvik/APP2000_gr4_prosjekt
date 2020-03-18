@@ -23,7 +23,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Start Bootstrap</a>
+      <a class="navbar-brand" href="#">Samkjøring AS</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -32,15 +32,15 @@
           <li class="nav-item">
             <a class="nav-link" href="/test">Hjem</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Varslinger</a>
+          <li class="nav-item active">
+            <a class="nav-link" href="#varslinger">Varslinger</a>
             <span class="sr-only">(current)</span>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/login">Logg inn</a>
           </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#top">Om oss
+          <li class="nav-item">
+            <a class="nav-link" href="/omoss">Om oss
             </a>
           </li>
         </ul>
@@ -184,7 +184,7 @@
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2020</p>
     </div>
     <!-- /.container -->
   </footer>

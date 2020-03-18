@@ -35,7 +35,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Varslinger</a>
+            <a class="nav-link" href="/varslinger">Varslinger</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/login">Logg inn</a>
@@ -193,7 +193,7 @@
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2020</p>
     </div>
     <!-- /.container -->
   </footer>
